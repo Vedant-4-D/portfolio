@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>My portfolio</title>
+<style>
+.head{
+	padding: 10px;
+	color: yellow;
+	margin-left: 525px;
+}
+.card{
+	width: 400px;
+	height:400px;
+	border-radius: 50%;
+	background-color: #20bbff;
+	margin-top: 100px;
+	margin-left: 450px;
+	box-shadow:0px 0px 31px white;
+	transform-style: preserve-3d;
+	transition: all 1s ease-in;
+}
+.circle1{
+	width: 350px;
+	height:350px;
+	margin: 25px;
+	border-radius: inherit;
+	position: absolute;
+	background-color: linear-gradient(#ffffff27, #ffffff28);
+	box-shadow:0px 0px 40px #CDD0D2;
+	transition: all 1s ease-in;
+}
+.circle2{
+	width: 300px;
+	height:300px;
+	margin-top: 50px;
+	margin-left: 50px;
+	border-radius: inherit;
+	position: absolute;
+	background-color: linear-gradient(#ffffff27, #ffffff28);
+	box-shadow:0px 0px 40px #CDD0D2;
+	transition: all 1s ease-in;
+}
+.circle3{
+	width: 250px;
+	height:250px;
+	margin-top: 75px;
+	margin-left: 75px;
+	border-radius: inherit;
+	position: absolute;
+	background-color: linear-gradient(#ffffff27, #ffffff28);
+	box-shadow:0px 0px 40px #CDD0D2;
+	transition: all 1s ease-in;
+}
+.circle4{
+	width: 200px;
+	height:200px;
+	margin-top: 100px;
+	margin-left: 100px;
+	border-radius: inherit;
+	position: absolute;
+	background-color: linear-gradient(#ffffff27, #ffffff28);
+	box-shadow:0px 0px 40px #CDD0D2;
+	transition: all 1s ease-in;
+}
+.circle5{
+	width: 150px;
+	height:150px;
+	margin-top: 125px;
+	margin-left: 125px;
+	border-radius: inherit;
+	position: absolute;
+	background-color: linear-gradient(#ffffff27, #ffffff28);
+	box-shadow:0px 0px 40px #CDD0D2;
+	transition: all 1s ease-in;
+}
+.circle6{
+	width: 100px;
+	height:100px;
+	margin-top: 150px;
+	margin-left: 150px;
+	border-radius: inherit;
+	text-decoration: none;
+	position: absolute;
+	background-color: linear-gradient(#ffffff27, #ffffff28);
+	box-shadow:0px 0px 40px #CDD0D2;
+	transition: all 1s ease-in;
+	animation: ani 0.4s alternate 2;
+	animation-delay: 2s;
+}
+
+@keyframes ani{
+	to{
+		transform: rotate(0deg);
+	}
+}
+a{
+	text-decoration: none;
+}
+.circle6 h1{
+	margin-top: 40px;
+	margin-left: 6px;
+	text-decoration: none;
+	color: black;
+	font-size: 1em;
+}
+.card:hover{
+	transform: rotate3d( 1, 1, 0, 60deg);
+	box-shadow:-5px 5px 80px white;
+}
+.card:hover .circle1{
+	transform: translate3d(0, 0, 30px);
+	margin-top: 25px;
+	box-shadow:-5px 5px 20px #CDD0D2;
+}
+.card:hover .circle2{
+	transform: translate3d(0, 0, 30px);
+	margin-top: 13px;
+	margin-left: 90px;
+	box-shadow:-5px 5px 20px #CDD0D2;
+}
+.card:hover .circle3{
+	transform: translate3d(0, 0, 30px);
+	margin-top: -6px;
+	margin-left: 160px;
+	box-shadow:-5px 5px 20px #CDD0D2;
+}
+.card:hover .circle4{
+	transform: translate3d(0, 0, 30px);
+	margin-top: -22px;
+	margin-left: 230px;
+	box-shadow:-5px 5px 20px #CDD0D2;
+}
+.card:hover .circle5{
+	transform: translate3d(0, 0, 30px);
+	margin-top: -37px;
+	margin-left: 300px;
+	box-shadow:-5px 5px 10px #CDD0D2;
+}
+.card:hover .circle6{
+	transform: translate3d(0, 0, 30px);
+	margin-top: -42px;
+	margin-left: 355px;
+	box-shadow:-5px 5px 10px #CDD0D2;
+	background-color: #888;
+}
+.card:hover .circle6 h1{
+	color: #ff13f0;
+	text-decoration: none;
+	margin-left: 21px;
+	margin-top: 35px;
+	text-shadow:-5px 5px 20px white;
+	font-size: 2em;
+}
+img{
+	height: 40px;
+	width: 40px;
+	margin: 29px;
+}
+
+</style>
+</head>
+<body bgcolor="black">
+<div class="head">
+<h1><b>MY PORTFOLIO</b></h1>
+</div>
+<div class="card">
+	<a href='gallery.html' class="circle1">
+	<div></div></a>
+	<div class="circle2"></div>
+	<div class="circle3"></div>
+	<div class="circle4"></div>
+	<div class="circle5"></div>
+	 <a href='resume.html'  class="circle6"><div><img src="D://HTML/arrow.png"></div></a>
+</div>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<html>
+<head>
+	<meta charset='UTF-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1.0'>
+	<title>Contact</title>
+	<link rel='stylesheet' href='styles.css'>
+</head>
+<body bgcolor='black'>
+	<header>
+		<div class='last1'>
+		        <div class="first-line">
+			<p class='head'><h2>My Portfolio</h2></p>
+		        </div>
+		        <div class="second-line">
+		                 	<p class='under'><a href='D://HTML/index.html'>Home</a></p>
+		                  <p class='under'><a href='D://HTML/about.html'>About</a></p>
+			<p class='under'><a href='D://HTML/qualification.html'>Qualification</a></p>
+			<p class='under'><a href='D://HTML/contact.html'>Contact</a></p>
+			<p class='under'><a href='D://HTML/family.html'>Family</a></p>
+			<p class='under'><a href='D://HTML/friends.html'>Friends</a></p>
+			<p class='under'><a href='D://HTML/achivement.html'>Achivements & Certifications</a></p>
+			<p class='under'><a href='D://HTML/moment.html'>Best Moment of  Life</a></p>
+			<p class='under'><a href='D://HTML/testimonial.html'>Testimonials</a></p>
+			<p class='under'><a href='D://HTML/gallery.html'>Photo Gallery</a></p>
+		        </div>
+		</div>
+	</header>
+	<main>
+	<div class='box'>
+		<div class='pre1'>
+			<button>
+				<a href='D://HTML/qualification.html'>PREVIOUS</a>
+			</button>
+		</div>
+	<div class='form'>
+	<FORM>
+		<div class="form1">
+			<h2>First Name:
+      			<span class='show8'>
+			<input type="name" id="name" placeholder="First Name">
+			</span>
+			</h2>
+		</div>
+		<div class="form2">
+			<h2>Last Name:
+			<span class='show8'>
+			<input type="name" id="name" placeholder="Last Name">
+			</span>
+			</h2>
+		</div>
+		<div class="form3">
+			<h2>Email:
+			<span class='show8'>
+			<input type="name" id="email" placeholder="Email">
+			</span>
+			</h2>
+		</div>
+		<div class="form4">
+			<h2>Phone No.:
+			<span class='show8'>
+			<input type="name" id="email" placeholder="Phone No.">
+			</span>
+			</h2>
+		</div>
+		<div class="form5">
+			<h2>Message:
+			<span class='show8'>
+			<textarea id="email1"></textarea>
+			</span>
+			</h2>
+		</div>
+		<input type='button' id='button' value='Submit'>
+      	</div>           
+		<div class='next2'>
+			<button>
+				<a href='D://HTML/family.html'>NEXT</a>
+			</button>
+		</div>
+	</form>
+	</div>
+	</main>
+	<script>const contactForm = document.getElementById('contactForm');
+
+contactForm.addEventListener('submit', (event) => {
+    event.preventDefault(); // Prevent default form submission
+
+    // Get form values
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const phone = document.getElementById('phone').value;
+    const message = document.getElementById('message').value;
+
+    // Basic validation
+    if (name === '' || email === '' || phone === '' || message === '') {
+        alert('Please fill in all fields.');
+        return;
+    }
+
+    // More advanced validation (optional)
+    // You can add more specific validation rules here, such as:
+    // - Email format validation
+    // - Phone number format validation
+    // - Message length validation
+
+    // If validation passes, you can submit the form using AJAX or other methods
+    // For example, you could send the form data to a server-side script:
+    //
+    // fetch('/your-server-side-scri	pt', {
+    //     method: 'POST',
+    //     headers: {
+    //         'Content-Type': 'application/json'
+    //     },
+    //     body: JSON.stringify({ name, email, phone, message })
+    // })
+    // .then(response => {
+    //     // Handle response from server
+    // })
+    // .catch(error => {
+    //     // Handle errors
+    // });
+
+    // Alternatively, you could display a success message:
+    alert('Your message has been sent. Thank you!');
+    contactForm.reset(); // Reset the form
+});
+	</script>
+</body>
+</html>

@@ -1,0 +1,365 @@
+<html>
+<head>
+	<meta charset='UTF-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1.0'>
+	<title>Friends Page</title>
+<style>
+body{
+	margin:0;
+	padding:0;
+	font-family:Arial,sans-serif;
+	text-align: center;
+}
+
+.last1 a{
+	text-decoration: none;
+	color: grey;
+}
+.last1{
+	width: 100%;
+	height: 31px;
+	background-color: black;
+	display:inline;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.first-line{
+	width: 100%;
+	height: 31px;
+	background-color: black;
+	display:flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.second-line{
+	width: 100%;
+	height: 31px;
+	background-color: black;
+	display:flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.last1 p{
+	display: inline;
+	margin-left: 15px;
+}
+.first-line h2{
+	text-decoration: none;
+	color: yellow;
+}
+.second-line a{
+	color: grey;
+}
+#anchor{
+	color: aqua;
+	border-bottom: 1px solid aqua;
+}
+.under1:before{
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 44px;
+	background: yellow;
+	border-radius: 50px;
+	transform: scaleX(0);
+	transition: transform 0.2s linear;
+	margin-top: 18px;
+}
+.under1:hover:before{
+	transform: scaleX(1);
+}
+.under2:before{
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 88px;
+	background: yellow;
+	border-radius: 50px;
+	transform: scaleX(0);
+	transition: transform 0.2s linear;
+	margin-top: 18px;
+}
+.under2:hover:before{
+	transform: scaleX(1);
+}
+.under3:before{
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 56px;
+	background: yellow;
+	border-radius: 50px;
+	transform: scaleX(0);
+	transition: transform 0.2s linear;
+	margin-top: 18px;
+}
+.under3:hover:before{
+	transform: scaleX(1);
+}
+.under4:before{
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 48px;
+	background: yellow;
+	border-radius: 50px;
+	transform: scaleX(0);
+	transition: transform 0.2s linear;
+	margin-top: 18px;
+}
+.under4:hover:before{
+	transform: scaleX(1);
+}
+.under5:before{
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 80px;
+	background: yellow;
+	border-radius: 50px;
+	transform: scaleX(0);
+	transition: transform 0.2s linear;
+	margin-top: 18px;
+}
+.under5:hover:before{
+	transform: scaleX(1);
+}
+.under6:before{
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 91px;
+	background: yellow;
+	border-radius: 50px;
+	transform: scaleX(0);
+	transition: transform 0.2s linear;
+	margin-top: 18px;
+}
+.under6:hover:before{
+	transform: scaleX(1);
+}
+.under7:before{
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 95px;
+	background: yellow;
+	border-radius: 50px;
+	transform: scaleX(0);
+	transition: transform 0.2s linear;
+	margin-top: 18px;
+}
+.under7:hover:before{
+	transform: scaleX(1);
+}
+#under:hover{
+	color: yellow;
+}
+.box{	
+	border-radius: 10px; 
+	height: 1055px;
+	width: 1320px;
+	margin: 20px;
+	justify-content: left;
+	align-items: center;
+	display: flex;
+	background-image: url('D://HTML/bg1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.previous{
+	margin: 20px;
+	margin-top: 880px;
+}
+#button1{
+	height: 40px;
+	width: 100px;
+	border-radius: 15px;
+	background-color: rgba(0, 0, 0, -1);
+	box-shadow:0px 0px 40px white;
+	color: white;
+	border-color: black;
+}
+#button1:hover{
+	border-color: aqua;
+}
+.friend-container {
+	display: flex;
+
+	flex-wrap: wrap;
+
+	justify-content: space-between;
+
+}
+
+
+.friend-card {
+
+	border: none;
+	padding: 20px;
+	
+	margin-bottom: 20px;
+
+	width: 1000px;
+	height: 170px;
+	display: flex;
+	background-color: rgba(0, 0, 0, -1);
+	box-shadow:0px 0px 40px white;
+}
+
+
+.friend-card img {
+
+	width: 130px;
+
+	border-radius: 50%;
+
+}
+
+
+.friend-card h2 {
+
+	margin-top: 10px;
+
+	color: orange;
+}
+.achi{
+	margin-left: 100px;
+}
+.achi p{
+	color: red;
+	font-size: 1.3em;
+	text-decoration: underline;
+}
+li{
+	color: white;
+}
+</style>
+</head>
+<body bgcolor='black'>
+	<header>
+		<div class='last1'>
+		        <div class="first-line">
+			<p class='head'><h2>My Portfolio</h2></p>
+		        </div>
+		        <div class="second-line">
+		                <p class='under1'><a href='D://HTML/home.html' id="under">Home</a></p>
+		                <p class='under1'><a href='D://HTML/about.html' id="under">About</a></p>
+			<p class='under2'><a href='D://HTML/qualification.html' id="under">Qualification</a></p>
+			<p class='under3'><a href='D://HTML/contact.html' id="under">Contact</a></p>
+			<p class='under4'><a href='D://HTML/family.html' id="under">Family</a></p>
+			<p><a href='D://HTML/friends.html' id="anchor">Friends</a></p>
+			<p class='under6'><a href='D://HTML/achivement.html' id="under">Achivements</a></p>
+			<p class='under7'><a href='D://HTML/moment.html' id="under">Best Moment</a></p>
+			<p class='under6'><a href='D://HTML/testimonials.html' id="under">Testimonials</a></p>
+			<p class="under7"><a href='D://HTML/gallery.html' id="under">Photo Gallery</a></p>
+		        </div>
+		</div>
+	</header>
+	<main>
+	<div class='box'>
+	<div class="previous">
+	        <a href='D://HTML/family.html'><button id="button1">PREVIOUS</button></a>
+	</div>
+	<div class="friend-container">
+
+        		<div class="friend-card">
+			<div>	
+		            <img src="D://HTML/abhi.jpeg" alt="Friend 1">				
+
+			<h2>Abhiraj Singh Bhati</h2>
+		
+            </div>
+			<div class="achi">
+			<p>Achievements:</p>
+
+		
+                <ul>
+		
+                    <li>Good football player and also had a medal in football during school times.</li>
+			    <li>Good in playing esports.</li>
+			    <li>Has abilities to understand our needs.</li>
+   			    <li>A true professional.</li>
+		
+                </ul>
+
+			</div>
+		</div>
+
+        		<div class="friend-card">
+			<div>	
+		            <img src="D://HTML/Aki.jpeg" alt="Friend 1">				
+
+			<h2>Akshit Saxena</h2>
+		
+            </div>
+			<div class="achi">
+			<p>Achievements:</p>
+
+		
+                <ul>
+		
+                    <li>The most courageous one and participated in hackathon and got a certificate.</li>
+			    <li>Good in playing esports.</li>
+			    <li>Creative and attentive.</li>
+   			    <li>Good in speaking skills.</li>
+		
+                </ul>
+
+			</div>
+		</div>
+
+        		<div class="friend-card">
+			<div>	
+		            <img src="D://HTML/ashu.jpeg" alt="Friend 1">				
+
+			<h2>Khushveer Singh Gaud</h2>
+		
+            </div>
+			<div class="achi">
+			<p>Achievements:</p>
+
+		
+                <ul>
+		
+                    <li>Good in playing esports.</li>
+			    <li>Good in playing football.</li>
+			    <li>Also knows basics of javascripts.</li>
+			    <li>Certifications in basics of HTML and CSS.</li>
+		
+                </ul>
+
+			</div>
+		</div>
+
+        		<div class="friend-card">
+			<div>	
+		            <img src="D://HTML/anunay.jpeg" alt="Friend 1">				
+
+			<h2>Anunay Sharma</h2>
+		
+            </div>
+			<div class="achi">
+			<p>Achievements:</p>
+
+		
+                <ul>
+		
+                    <li>The most silent one and participated in hackathon and got a certificate. Also good in studies</li>
+			    <li>Had a great intrest in reading books.</li>
+			    <li>His work exceeded our expectations.</li>
+   			    <li>Good in speaking skills.</li>
+		
+                </ul>
+
+			</div>
+		</div>
+
+	</div>
+	<div class="previous">
+	        <a href="D://HTML/achivement.html"><button id="button1">NEXT</button></a>
+	</div>
+	</div>
+</body>
+</html>
