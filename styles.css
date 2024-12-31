@@ -1,0 +1,583 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:Arial,sans-serif;
+	text-align: center;
+}
+
+.last1 a{
+	text-decoration: none;
+	color: grey;
+}
+.last1{
+	width: 100%;
+	height: 31px;
+	background-color: black;
+	display:inline;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.first-line{
+	width: 100%;
+	height: 31px;
+	background-color: black;
+	display:flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.second-line{
+	width: 100%;
+	height: 31px;
+	background-color: black;
+	display:flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.last1 p{
+	display: inline;
+	margin-left: 15px;
+}
+.first-line h2{
+	text-decoration: none;
+	color: yellow;
+	margin-left: 10px;
+}
+.under{
+	border-bottom: 1px solid trnasparent;
+}
+.under:hover{
+	border-bottom: 1px solid yellow;
+}
+.under:hover a{
+	color: yellow;
+}
+.social{
+	display: inline;
+	margin-right: -30px;
+}
+.social a{
+	text-decoration: none;
+	margin-left: 10px;
+}
+.social img{
+	width: 40px;
+	height: 40px;
+}
+.box{	
+	border-radius: 10px; 
+	height: 555px;
+	width: 1320px;
+	margin: 20px;
+	justify-content: left;
+	align-items: center;
+	display: flex;
+	background-image: url('D://HTML/bg1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.big{
+	display: flex-box;
+}
+.circle{
+	border-radius: 50%;
+	background-color: white;
+	height: 350px;
+	width: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 80px;
+	margin-right: 50px;
+	margin-bottom: 40px;
+}
+#insta{
+	border: transparent;
+	border-radius: 20%;
+}
+#what{
+	border: transparent;
+	border-radius: 20%;
+}
+#link{
+	border: transparent;
+	border-radius: 50%;
+}
+#x{
+	border: transparent;
+	border-radius: 50%;
+}
+.name{
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	height: 595px;
+	width: 700px;
+	display: inline;
+	justify-content: center;
+	align-items: center;
+	color: grey;
+	margin
+}
+
+
+.name1{
+	margin-top: 150px;
+	margin-right: 280px;
+	margin-left: 280px;
+}
+
+.name1:hover {
+	color: white;
+	margin-right: 180px;
+	margin-left: 180px;
+}
+
+.show{
+	display: none;
+}
+
+.name1:hover .show{
+	display: inline-block;
+	text-align: center;
+	color: orange;
+}
+
+.study{
+	margin-top: 50px;
+	margin-right: 260px;
+	margin-left: 260px;
+}
+
+.study:hover {
+	color: white;
+	margin-right: 140px;
+	margin-left: 140px;
+}
+
+.show2{
+	display: none;
+}
+
+.study:hover .show2{
+	display: inline-block;
+	text-align: center;
+	color: orange;
+}
+
+.college{
+	margin-top: 50px;
+	margin-right: 260px;
+	margin-left: 260px;
+}
+
+.college:hover {
+	color: white;
+	margin-right: 62px;
+	margin-left: 62px;
+}
+
+.show3{
+	display: none;
+}
+
+.college:hover .show3{
+	display: inline-block;
+	text-align: center;
+	color: orange;
+}
+
+.from{
+	margin-top: 50px;
+	margin-right: 280px;
+	margin-left: 280px;
+}
+
+.from:hover {
+	color: white;
+	margin-right: 140px;
+	margin-left: 140px;
+}
+
+.show4{
+	display: none;
+}
+
+.from:hover .show4{
+	display: inline-block;
+	text-align: center;
+	color: orange;
+}
+
+.next{
+	height: 595px;
+	width: 100px;
+}
+
+.next button{
+	margin-top: 530px;
+	width: 100px;
+	height: 40px;
+}
+
+button{
+	border: 1px solid transparent;
+	border-radius: 20px;
+	margin: 0.05%;
+	margin-right: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	box-shadow:0px 0px 40px #CDD0D2;
+}
+
+button a{
+	text-decoration: none;
+	color: grey;
+}
+button:hover{
+	border: 1px solid transparent;
+	color: white;
+}
+
+.about{
+	border-radius: 10px; 
+	height: 555px;
+	width: 1325px;
+	margin: 20px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	background-image: url('D://HTML/bg1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.me{
+	display: flex;
+	width: 300px;
+	heigth: 100px;
+	margin-left: 150px;
+	margin-right: 200px
+	align-items: center;
+	justify-content: center;
+}
+.me h1{
+	color: grey;
+}
+.me h1:hover{
+	color: orange;
+}
+.show6{
+	display: none;
+}
+
+.me:hover .show6{
+	display: inline-block;
+	text-align: center;
+	color: white;
+}
+
+.pre{
+	height: 595px;
+	width: 180px;
+	margin-right: 200px;
+	margin-left: 20px;
+}
+
+.pre button{
+	margin-top: 530px;
+	width: 110px;
+	height: 40px;
+}
+
+button{
+	border: 2px solid grey;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: grey;
+}
+
+button a{
+	text-decoration: none;
+	color: grey;
+}
+
+button a:hover{
+	color: white;
+}
+
+button:hover{
+	border: 1px solid white;
+}
+.next1{
+	height: 595px;
+	width: 150px;
+	margin-left: 300px;
+	margin-right: 20px;
+}
+
+.next1 button{
+	margin-top: 530px;
+	width: 80px;
+	height: 40px;
+}
+
+.qbox{	
+	border-radius: 10px; 
+	height: 555px;
+	width: 1320px;
+	margin: 20px;
+	background-color: rgba(0, 0, 0, 0.5);
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	background-image: url('D://HTML/bg1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.p{
+	color: grey;
+	align-items: center;
+	justify-content: center;
+	margin-top: -200px;
+	margin-bottom: 20px; 
+	height: 50px;
+	width: 300px;
+	padding-top: 10px;
+
+}
+.h1{
+	color: white;
+}
+
+.table{
+	height: 200px;
+}
+table{
+	border: 2px solid white;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+table th{
+	border: 1px solid white;
+	align-items: center;
+	width: 300px;
+	height: 50px;
+	justify-content: center;
+	background-color: black;
+	color: orange;
+}
+.td1{
+	border: 1px solid white;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	background-color: black;
+	color: orange;
+}
+.td2{
+	border: 0.5px solid white;
+	align-items: center;
+	text-align: center;
+	height: 50px;
+	justify-content: center;
+	background-color: white;
+	color: orange;
+}
+.pre1{
+	height: 595px;
+	width: 180px;
+	margin-right: 250px;
+	margin-left: 60px;
+}
+
+.pre1 button{
+	margin-top: 530px;
+	width: 110px;
+	height: 40px;
+}
+.next2{
+	height: 595px;
+	width: 150px;
+	margin-left: 300px;
+	margin-right: 48px;
+}
+
+.next2 button{
+	margin-top: 530px;
+	width: 80px;
+	height: 40px;
+}
+.form{
+	width: 800px;
+	height: 400px;
+	margin-top: -100px;
+}
+.form1{
+	margin: 31px;
+	color: white;
+}
+.form2{
+	margin: 31px;
+	color: white;
+}
+.form3{
+	margin: 31px;
+	color: white;
+}
+.form4{
+	margin: 31px;
+	color: white;
+}
+.form5{
+	margin: 31px;
+	color: white;
+}
+#name{
+	height: 50px;
+	width: 400px;
+	font-size: 20px;
+	padding-left: 10px;
+	border-radius: 20px;
+}
+#email{
+	height: 50px;
+	width: 400px;
+	font-size: 20px;
+	padding-left: 10px;
+	border-radius: 20px;
+}
+#email1{
+	height: 100px;
+	width: 400px;
+	font-size: 16px;
+	padding-left: 10px;
+	border-radius: 20px;
+}
+.form1:hover {
+	color: orange;
+}
+
+.show8{
+	display: none;
+}
+.form1:hover .show8{
+	display: inline-block;
+	text-align: center;
+}
+.form2:hover {
+	color: orange;
+}
+
+.show8{
+	display: none;
+}
+.form2:hover .show8{
+	display: inline-block;
+	text-align: center;
+}
+.form3:hover {
+	color: orange;
+}
+.show8{
+	display: none;
+}
+.form3:hover .show8{
+	display: inline-block;
+	text-align: center;
+}
+.form4:hover {
+	color: orange;
+}
+.show8{
+	display: none;
+}
+.form4:hover .show8{
+	display: inline-block;
+	text-align: center;
+}
+.form5:hover {
+	color: orange;
+}
+.show8{
+	display: none;
+}
+.form5:hover .show8{
+	display: inline-block;
+	text-align: center;
+}
+#button{
+	height: 31px;
+	width: 80px;
+	font-size: 16px;
+	margin-top: 20px;
+	padding-top: 5px;
+	border: none;
+	border-radius: 10px; 
+	background-color: grey;
+}
+#button:hover{
+	background-color: white;
+}
+.diba{
+	width: 120px;
+	height: 100px;
+	margin-bottom: 10px;
+	margin-left: -200px;
+}
+.diba .circle2{
+	display: flex;
+}
+.circle2{
+	border-radius: 50%;
+
+	background-color: transparent;
+	height: 80px;
+	width: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+}
+.circle2 img{
+	margin-left: 285px;
+}
+.show9{
+	display: none;
+	font-size: 2em;
+	color: white;
+}
+.show9 b{
+	color: orange;
+}
+.circle2:hover .show9{
+	display: inline-block;
+	text-align: center;
+}
+.circle img{
+	border-radius: 100%;
+}
+.circle2 img{
+	border-radius: 100%;
+}
+.nex{
+	height: 595px;
+	width: 150px;
+	margin-left: 660px;
+	margin-right: 20px;
+}
+
+.nex button{
+	margin-top: 530px;
+	width: 80px;
+	height: 40px;
+}
+
+.sho{
+	display: none;
+}
+
+button:hover .sho{
+	display: inline-block;
+	text-align: center;
+}

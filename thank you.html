@@ -1,0 +1,60 @@
+<html>
+<head>
+	<meta charset='UTF-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1.0'>
+	<title>EX</title>
+	<style>
+	*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 8px;
+	margin-left: 8px;
+	border-radius: 50%;
+	height: 650px;
+	width: 1350px;
+
+}
+.circle1{
+	height: 350px;
+	width: 350px;
+	align-items: center;
+	justify-content: center;
+	margin-left: -100px;
+	border-radius: 50%;
+	border: 40px solid white;
+	background-color: #301934;
+	padding-top: 450px;
+	animation: a 0.1s linear infinite;
+	animation-delay: 0.1s;
+}
+
+h1{
+	margin-top: px;
+	margin-left: -280px;
+	color: yellow;
+	z-index: 1;
+}
+@keyframes a{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+	</style>
+</head>
+<body bgcolor='#301934'>
+<div class="container">
+	<div class="circle1">
+	</div>
+	<h1>THANK YOU</h1>
+</div>
+</body>
+</html>

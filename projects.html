@@ -1,0 +1,462 @@
+<html>
+<head>
+	<meta charset='UTF-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1.0'>
+	<title>Projects Overveiw</title>
+<style>
+body{
+	margin:0;
+	padding:0;
+	font-family:Arial,sans-serif;
+	text-align: center;
+}
+
+.last1 a{
+	text-decoration: none;
+	color: grey;
+}
+.last1{
+	width: 100%;
+	height: 31px;
+	background-color: black;
+	display:inline;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.first-line{
+	width: 100%;
+	height: 31px;
+	background-color: black;
+	display:flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.second-line{
+	width: 100%;
+	height: 31px;
+	background-color: black;
+	display:flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.last1 p{
+	display: inline;
+	margin-left: 15px;
+}
+.first-line h2{
+	text-decoration: none;
+	color: yellow;
+}
+.second-line a{
+	color: grey;
+}
+#anchor{
+	color: aqua;
+	border-bottom: 1px solid aqua;
+}
+.under1:before{
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 60px;
+	background: yellow;
+	border-radius: 50px;
+	transform: scaleX(0);
+	transition: transform 0.2s linear;
+	margin-top: 18px;
+}
+.under1:hover:before{
+	transform: scaleX(1);
+}
+.under2:before{
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 34px;
+	background: yellow;
+	border-radius: 50px;
+	transform: scaleX(0);
+	transition: transform 0.2s linear;
+	margin-top: 18px;
+}
+.under2:hover:before{
+	transform: scaleX(1);
+}
+.under3:before{
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 140px;
+	background: yellow;
+	border-radius: 50px;
+	transform: scaleX(0);
+	transition: transform 0.2s linear;
+	margin-top: 18px;
+}
+.under3:hover:before{
+	transform: scaleX(1);
+}
+.under4:before{
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 100px;
+	background: yellow;
+	border-radius: 50px;
+	transform: scaleX(0);
+	transition: transform 0.2s linear;
+	margin-top: 18px;
+}
+.under4:hover:before{
+	transform: scaleX(1);
+}
+.under5:before{
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 110px;
+	background: yellow;
+	border-radius: 50px;
+	transform: scaleX(0);
+	transition: transform 0.2s linear;
+	margin-top: 18px;
+}
+.under5:hover:before{
+	transform: scaleX(1);
+}
+.under6:before{
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 50px;
+	background: yellow;
+	border-radius: 50px;
+	transform: scaleX(0);
+	transition: transform 0.2s linear;
+	margin-top: 18px;
+}
+.under6:hover:before{
+	transform: scaleX(1);
+}
+.under7:before{
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 80px;
+	background: yellow;
+	border-radius: 50px;
+	transform: scaleX(0);
+	transition: transform 0.2s linear;
+	margin-top: 18px;
+}
+.under7:hover:before{
+	transform: scaleX(1);
+}
+#under:hover{
+	color: yellow;
+}
+.box{	
+	border-radius: 10px; 
+	height: 555px;
+	width: 1320px;
+	margin: 20px;
+	justify-content: left;
+	align-items: center;
+	display: flex;
+	background-image: url('D://HTML/bg1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.previous{
+	margin: 20px;
+	margin-top: 480px;
+}
+#button1{
+	height: 40px;
+	width: 100px;
+	border-radius: 15px;
+	background-color: rgba(0, 0, 0, -1);
+	box-shadow:0px 0px 40px white;
+	color: white;
+	border-color: black;
+}
+#button1:hover{
+	border-color: aqua;
+}
+.previous_2{
+	margin: 20px;
+	margin-top: 480px;
+	margin-left: -245px;
+}
+#button2{
+	height: 40px;
+	width: 100px;
+	border-radius: 15px;
+	background-color: rgba(0, 0, 0, -1);
+	box-shadow:0px 0px 40px white;
+	color: white;
+	border-color: black;
+}
+#button2:hover{
+	border-color: aqua;
+}
+.main_1{
+	margin-top: -100px;
+	margin-left: -135px;
+}
+.main_2{
+	margin-top: -100px;
+}
+.main_3{
+	margin-top: -100px;
+}
+.main_4{
+	margin-top: -100px;
+	margin-right: 135px;
+}
+.main_1 #categoryFilter {
+    margin-top: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#categoryFilter {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 550px;
+}
+
+.projects-container_1 {
+    width: 280px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: black;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    height: 420px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.projects-container_1 a{
+    text-decoration: none;
+    color: orange;
+}
+
+.projects-container {
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: black;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    height: 420px;
+}
+
+.projects-container a{
+    text-decoration: none;
+    color: orange;
+}
+
+.projects-container_2 {
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: black;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    height: 420px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.projects-container_2 a{
+    text-decoration: none;
+    color: orange;
+}
+
+.project-item_1 {
+    margin-bottom: 20px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    height: 30px;
+}
+
+.project-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.project-item_1:hover {
+    background-color: orange;
+    color: white;
+    border: none;
+}
+
+.project-item_1 h2 {
+    margin: 0;
+}
+
+.project-item:hover {
+    background-color: orange;
+    color: white;
+    border: none;
+}
+
+.project-item h2 {
+    margin: 0;
+}
+</style>
+</head>
+<body bgcolor='black'>
+	<header>
+		<div class='last1'>
+		        <div class="first-line">
+			<p class='head'><h2>My Portfolio</h2></p>
+		        </div>
+		        <div class="second-line">
+		                 	<p class='under1'><a href='D://HTML/resume.html' id="under">Resume</a></p>
+		                  <p class='under2'><a href='D://HTML/blog.html' id="under">Blog</a></p>
+			<p class='under1'><a href='D://HTML/portfolio.html' id="under">Portfolio</a></p>
+			<p class='under3'><a href='D://HTML/hobbies.html' id="under">Hobbies & Interests</a></p>
+			<p class='under6'><a href='D://HTML/github.html' id="under">GitHub</a></p>
+			<p class='under4'><a href='D://HTML/privacy.html' id="under">Privacy Policy</a></p>
+			<p class='under2'><a href='D://HTML/faq.html' id="under">FAQ</a></p>
+			<p class='under5'><a href='D://HTML/404.html' id="under">404 Error Page</a></p>
+			<p class='under7'><a href='D://HTML/resources.html' id="under">Resources</a></p>
+			<p><a href='D://HTML/projects.html' id="anchor">Projects Overview</a></p>
+		        </div>
+		</div>
+	</header>
+	<main>
+	<div class='box'>
+	<div class="previous">
+	        <a href='D://HTML/resources.html'><button id="button1">PREVIOUS</button></a>
+	</div>
+	<div class="main_1">
+        <div class="projects-container_1" id="projectsContainer">
+            <a href="index.html">
+            <div class="project-item" data-category="web">
+                <h2>Home</h2>
+            </div>
+	</a>
+	<a href="about.html">
+            <div class="project-item" data-category="web">
+                <h2>About</h2>
+            </div>
+	</a>
+	<a href="qualification.html">
+            <div class="project-item" data-category="design">
+                <h2>Qualification</h2>
+            </div>
+	</a>
+	<a href="contact.html">
+            <div class="project-item_1" data-category="mobile">
+                <h2>Contact</h2>
+            </div>
+	</a>
+	<a href="family.html">
+            <div class="project-item" data-category="tools">
+                <h2>Family</h2>
+            </div>
+	</a>
+        </div>
+	</div>
+	<div class="main_2">
+        <div class="projects-container" id="projectsContainer">
+	<a href="friends.html">
+            <div class="project-item" data-category="tools">
+                <h2>Friends</h2>
+            </div>
+	</a>
+	<a href="achivements.html">
+            <div class="project-item" data-category="web">
+                <h2>Achivements & Certifications</h2>
+            </div>
+	</a>
+	<a href="moment.html">
+            <div class="project-item" data-category="web">
+                <h2>Best Moment of Life</h2>
+            </div>
+	</a>
+	<a href="testimonal.html">
+            <div class="project-item" data-category="design">
+                <h2>Testimonals</h2>
+            </div>
+	</a>
+	<a href="gallery.html">
+            <div class="project-item" data-category="mobile">
+                <h2>Photo Gallery</h2>
+            </div>
+	</a>
+        </div>
+	</div>
+	<div class="main_3">
+        <div class="projects-container" id="projectsContainer">
+	<a href="resume.html">
+            <div class="project-item" data-category="web">
+                <h2>Resume</h2>
+            </div>
+	</a>
+	<a href="blog.html">
+            <div class="project-item" data-category="web">
+                <h2>Blog</h2>
+            </div>
+	</a>
+	<a href="portfolio.html">
+            <div class="project-item" data-category="design">
+                <h2>Portfolio</h2>
+            </div>
+	</a>
+	<a href="hobbies.html">
+            <div class="project-item_1" data-category="mobile">
+                <h2>Hobbies & Interests</h2>
+            </div>
+	</a>
+	<a href="github.html">
+            <div class="project-item" data-category="tools">
+                <h2>GitHub</h2>
+            </div>
+	</a>
+        </div>
+	</div>
+	<div class="main_4">
+        <div class="projects-container_2" id="projectsContainer">
+	<a href="privacy.html">
+            <div class="project-item" data-category="web">
+                <h2>Privacy Policy</h2>
+            </div>
+	</a>
+	<a href="faq.html">
+            <div class="project-item" data-category="web">
+                <h2>FAQ</h2>
+            </div>
+	</a>
+	<a href="404.html">
+            <div class="project-item_1" data-category="design">
+                <h2>404 Error Page</h2>
+            </div>
+	</a>
+	<a href="resources.html">
+            <div class="project-item" data-category="mobile">
+                <h2>Resources</h2>
+            </div>
+	</a>
+            <a href="projects.html">
+            <div class="project-item" data-category="tools">
+                <h2>Projects Overview</h2>
+            </div>
+            </a>
+        </div>
+	</div>
+	<div class="previous_2">
+	        <a href="D://HTML/thank you.html"><button id="button2">NEXT</button></a>
+	</div>
+	</div>
+</body>
+</html>
